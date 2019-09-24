@@ -1,5 +1,5 @@
 {
   "html" : {
-    "filters" : "html, bem"
+    "filters" : "html,bem,c"
   }
 }
