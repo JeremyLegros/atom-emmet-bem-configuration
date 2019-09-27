@@ -1,5 +1,9 @@
 {
       "bem.elementSeparator":"__",
       "bem.modifierSeparator":"--",
+<<<<<<< HEAD
       "bem.shortElementPrefix":"_"
+=======
+      "bem.shortElementPrefix":"-"
+>>>>>>> cded1514cbb5ccb9a9857d85d01a8914babcb7fb
 }
