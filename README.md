@@ -1,4 +1,4 @@
-# emmetConfig
+# EmmetConfig
   How to configure Atom emmet package for extensions, such as defining the filter |bem always active
 ## Short story
   The procedure implied in the readme is really confusing and incomplete.
@@ -16,7 +16,7 @@
   B : block <br />
   E : element<br />
   M : modifier<br />
-  bem filter Syntax used in this config : B__E--M&nbsp;&nbsp;/&nbsp;&nbsp;B_E--M <br />
+  bem filter Syntax used in this config : B_E--M&nbsp;&nbsp;/&nbsp;&nbsp;B__E--M <br />
   <br />
   (Emmet default bem filter syntax is : B-E_M&nbsp;&nbsp;/&nbsp;&nbsp;B--E_M)
 
@@ -43,3 +43,4 @@
     &lt;/div&gt;
   </code>
 </pre>
+
