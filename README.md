@@ -2,19 +2,19 @@
   How to configure Atom emmet package for extensions, such as defining the filter |bem always active <br/>
   Configure bem filter syntax to something less confusing
   
-## I Short story about preferences
+## I) Short story about preferences
   The procedure implied in the readme is really confusing and incomplete.
   Needed to read the END of the readme + doc https://docs.emmet.io/customization/ .<br/>
   You have to create choose the location and the name of the files you want yourself. <br/>
   This repo contains all the needed files with my preferences, modify them at your need.<br/>
   The preferences are split in three files "preferences.json", "snippets.json", "syntaxProfiles.json"
-### I.1 Setup the preferences
+### I.1) Setup the preferences
   Place the emmetConfig folder somewhere meaningful, something like  "&#126;/.atom/" or "&#126;/.atom/packages/emmet/" etc..<br/>
   go to the Atom > Settings > packages > emmet > settings > Extension path <br/>
   set the path corresponding to the location of your emmetConfig folder <br/>
   Relaunch atom.
 
-## II A less confusing syntax of the bem filter
+## II) A less confusing syntax of the bem filter
   B : block <br />
   E : element<br />
   M : modifier<br />
@@ -22,7 +22,7 @@
   <br />
   (Emmet default bem filter syntax is : B-E_M&nbsp;&nbsp;/&nbsp;&nbsp;B--E_M)
 
-### II. 1 Same examples as in emmet docs (web) with the new syntax
+### II.1) Same examples as in emmet docs (web) with the new syntax
 <pre>
   <code>
     .B--M
